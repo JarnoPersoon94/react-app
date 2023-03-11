@@ -1,0 +1,87 @@
+*{
+    font-size: unset;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+h3{
+    margin: 0;
+}
+
+h1.main-title {
+    font-size: 100px;
+    font-weight: bold;
+    color: khaki;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    margin: 0 0;
+    padding: 0 0;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    background-image: url("./resources/pattern.jpeg");
+}
+
+h2.title_brushes{
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+    background-color: mediumspringgreen;
+    width: 100%;
+    position: relative;
+    left: 0px;
+    right: 0px;
+}
+
+h2.title_frames{
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+    background-color: lightcoral;
+    width: 100%;
+    position: relative;
+    left: 0px;
+    right: 0px;
+}
+
+h2.title_paint{
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+    background-color: skyblue;
+    width: 100%;
+    position: relative;
+    left: 0px;
+    right: 0px;
+}
+
+.Brushes{
+    position: relative;
+    top: 150px;
+}
+
+.Frames{
+    position: relative;
+    top: 150px;
+}
+
+.Paint{
+    position: relative;
+    top: 150px;
+}
+.price{
+    color: blue;
+    font-weight: bold;
+    display: inline-block;
+    margin: 0;
+}
+
+
+.info{
+    display: inline-block;
+    margin: 0;
+}
+

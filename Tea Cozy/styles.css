@@ -1,0 +1,148 @@
+* {
+    background-color: black;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 0.9;
+    color: seashell;
+}
+
+h2{
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+
+h3{
+    font-size: 1.17em;
+    font-weight: bolder;
+}
+
+h4{
+    font-size: 1em;
+    font-weight: bolder;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.top_bar{
+    position: sticky;
+    height: 69px;
+}
+
+.top_bar .logo{
+    height: 50px;
+    margin: 9px 0px 9px 10px;
+}
+
+.top_bar .menu{ 
+    float: right;
+}
+
+.top_bar .menu li{
+    padding-left: 10px;
+    display: inline-block;
+    text-decoration: underline;
+}
+
+.main_image{
+    margin: auto;
+    height: 700px;
+    min-width: 1200px;
+    max-width: 1200px;
+    margin-top: 0px;
+    background-image: url("./Images/img-mission-background.jpg");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    flex-grow: 0;
+}
+
+.tea_cozy{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.images_cozy{
+    max-width: 300px;
+    max-height: 200px;
+}
+
+.desc_cozy{
+    min-width: 300px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.row{
+    display: flex;
+    gap: 30px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.locations{
+    background-image: url(./Images/img-locations-background.jpg);
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    min-width: 1200px;
+    min-height: 600px;
+}
+
+.loc_h1{
+    background-color: rgba(0,0,0,0);
+    margin-bottom: 15px;
+}
+
+.adress{
+    margin-top: 0;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    background-color: rgba(0,0,0,0);
+    justify-content: center;
+}
+.loc{
+    display: flex;
+    vertical-align: middle;
+    flex-direction: column;
+    max-width: 300px;
+    max-height: 300px;
+
+    min-width: 300px;
+    min-height: 300px;
+}
+
+.loc3{
+    display: flex;
+    vertical-align: middle;
+    flex-direction: column;
+    opacity: 1;
+    max-width: 300px;
+    max-height: 300px;
+
+    min-width: 300px;
+    min-height: 300px;
+}
+
+.info{
+    text-align: center;
+    height: 200px;
+}
+
+footer{
+    text-align: left;
+}

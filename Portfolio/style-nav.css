@@ -1,0 +1,115 @@
+*{
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #F1F7ED;
+}
+
+/*@font-face {
+  font-family: Pacifico;
+  src: url(./Fonts/Pacifico/Pacifico-Regular.ttf);
+
+  }
+*/
+
+body{
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+}
+
+nav{
+  min-width: 100%;
+  margin: 0;
+  padding: 0;
+  display: inline-flex;
+  background-color: #54494B;
+  width: 100%;
+  height: 60px;
+  color: white;
+  align-items: center;
+}
+
+ main{
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 20px;
+  background-color: #F1F7ED;
+  width: 90%;
+  border-radius: 10px;
+  align-items: center;
+}
+
+#intro{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#logo{
+  display: flex;
+  width: 60%;
+  color: white;
+  background-color: #54494B;
+  align-items: center;
+  margin-left: 10px;
+
+}
+
+#name{
+  margin-left: 10px;
+}
+
+#personal_pic{
+  margin-left: 10px;
+  margin-top: 10px;
+  width: 126px;
+  height: 126px;
+  border-radius: 50%;
+}
+
+#personal_text{
+  display: none;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.about_me{
+  width: 100%;
+}
+
+.menu{
+  margin: 0;
+  background-color: #54494B;
+  display: inline-flex;
+  width: 100%;
+  height: 100%;
+  list-style-type: none;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.menu-option{
+  background-color: #54494B;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.menu-option a{
+  align-items: center;
+  background-color: #54494B;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+
+.menu-option a:hover{
+  background-color: #91C7B1;
+  color: black;
+}
+
+.menu-option a:active{
+  background-color: #E3D081;
+  color: black;
+}
+

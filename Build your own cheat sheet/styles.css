@@ -1,0 +1,30 @@
+@font-face {
+    font-family: Ubuntu;
+    src: url(./Content/Fonts/Ubuntu-Light.ttf);
+}
+
+*{
+    font-family: Ubuntu;
+}
+
+body{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: hsla(113, 75%, 65%, 0.73);
+}
+
+table{
+    table-layout: fixed;
+    border-collapse:collapse;
+}
+
+td{
+    text-align: left;
+    padding: 0 20px 0 0;
+    border: 1px solid black;
+}
+
+.header{
+    font-weight: bold;
+}

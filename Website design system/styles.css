@@ -1,0 +1,128 @@
+@font-face{
+    font-family: "Lobster-Regular";
+    src: url("./Fonts/Lobster/Lobster-Regular.ttf");
+}
+
+@font-face{
+    font-family: "Roboto-Regular";
+    src: url("./Fonts/Roboto/Roboto-Regular.ttf");
+}
+
+@font-face{
+    font-family: "RubikDistressed-Regular.ttf";
+    src: url("./Fonts/Rubik_Distressed/RubikDistressed-Regular.ttf");
+}
+
+@font-face{
+    font-family: "RubikMicrobe-Regular";
+    src: url("./Fonts/Rubik_Microbe/RubikMicrobe-Regular.ttf");
+}
+
+* {
+    font-family: Arial;
+}
+
+body{
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+h1{
+    margin: 5px 0 2px 10px;
+}
+
+h2{
+    margin: 5px 0 2px 10px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.colors{
+    border: 5px solid gray;
+
+}
+
+.colors .red1{
+    display: inline-block;
+    background-color: hsla(0, 100%, 50%, 1);
+    margin: 15px;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 15px;
+}
+
+.colors .red2{
+    display: inline-block;
+    background-color: hsla(0, 60%, 50%, 1);
+    margin: 15px;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 15px;
+}
+
+.colors .red3{
+    display: inline-block;
+    background-color:hsla(0, 40%, 50%, 1);
+    margin: 15px;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 15px;
+}
+
+.colors .blue{
+    display: inline-block;
+    margin: 15px;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 15px;
+}
+
+.colors .blue1{
+    background-color:hsla(233, 100%, 80%, 1);
+}
+
+.colors .blue2{
+    background-color: hsla(233, 100%, 60%, 1);
+}
+
+.colors .blue3{
+    background-color: hsla(233, 100%, 40%, 1);
+}
+
+.Fonts, .Text-styles{
+    border: 5px solid gray;
+    margin-top: 20px;
+
+}
+
+.Fonts .font, .Text-styles .t{
+    margin: 11px 0px 11px 10px;
+    font-size: 22px;
+}
+
+.Fonts .Roboto{
+    font-family: "Roboto-Regular";
+}
+
+.Fonts .Lobster{
+    font-family: "Lobster-Regular";
+}
+
+.Fonts .Microbe{
+    font-family: "RubikMicrobe-Regular";
+}
+
+.Fonts .Distressed{
+    font-family: "RubikDistressed-Regular";
+}
+
+.Text-styles .text1{
+    text-transform: uppercase;
+}
+
+.Text-styles .text2{
+    text-transform: lowercase;
+}
+
+
